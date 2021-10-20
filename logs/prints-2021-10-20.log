@@ -1,0 +1,8 @@
+23:51:48.648 [main] INFO  resources.Base - Home page should be displayed
+23:51:50.020 [main] INFO  resources.Base - driver is initialized
+23:52:03.449 [main] INFO  resources.Base -  Home page should not be displayed
+23:52:04.792 [main] INFO  resources.Base - driver is initialized
+23:52:16.713 [main] INFO  resources.Base - driver is initialized
+23:52:29.497 [main] INFO  resources.Base - driver is initialized
+23:52:56.590 [main] INFO  resources.Base - driver is initialized
+23:53:06.175 [main] INFO  resources.Base - Navigate to Admin login page
