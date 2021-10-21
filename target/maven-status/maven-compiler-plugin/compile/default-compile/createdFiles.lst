@@ -1,0 +1,8 @@
+pageobjects\Userregister.class
+pageobjects\Adminlogin.class
+pageobjects\Userenroll.class
+pageobjects\Deleteuser.class
+pageobjects\Edituser.class
+pageobjects\Userlogin.class
+resources\Base.class
+pageobjects\Courses.class

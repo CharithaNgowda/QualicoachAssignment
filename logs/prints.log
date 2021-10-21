@@ -1,4 +1,5 @@
-00:18:36.027 [main] INFO  resources.Base - Home page should be displayed
-00:18:37.383 [main] INFO  resources.Base - driver is initialized
-00:18:54.409 [main] INFO  resources.Base -  Home page should not be displayed
-00:18:55.841 [main] INFO  resources.Base - driver is initialized
+11:25:31.574 [main] INFO  resources.Base - driver is initialized
+11:25:42.134 [main] INFO  resources.Base - Home page should be displayed
+11:25:45.971 [main] INFO  resources.Base - driver is initialized
+11:25:58.594 [main] INFO  resources.Base -  Home page should not be displayed
+11:26:02.798 [main] INFO  resources.Base - driver is initialized

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 182.16 s <<< FAILURE! - in TestSuite
+baseNavigation(qualicoach.LoginuserTest)  Time elapsed: 11.996 s  <<< FAILURE!
+java.lang.IllegalAccessError: class qualicoach.LoginuserTest (in unnamed module @0x2a5b3fee) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x2a5b3fee
+	at qualicoach.LoginuserTest.baseNavigation(LoginuserTest.java:32)
+
+baseNavigation(qualicoach.LoginuserTest)  Time elapsed: 11.123 s  <<< FAILURE!
+java.lang.IllegalAccessError: class qualicoach.LoginuserTest (in unnamed module @0x2a5b3fee) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x2a5b3fee
+	at qualicoach.LoginuserTest.baseNavigation(LoginuserTest.java:32)
+
+baseNavigation(qualicoach.ManagementTest)  Time elapsed: 28.417 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-3909LIN4', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f296b1fa073cedec25a218fbff4947a, clickElement {id=c1dc178e-99be-46d9-aca7-75583bee1873}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\CHARIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57920/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5f296b1fa073cedec25a218fbff4947a)] -> xpath: //a[text() = 'Courses']]
+Session ID: 5f296b1fa073cedec25a218fbff4947a
+	at qualicoach.ManagementTest.baseNavigation(ManagementTest.java:35)
+

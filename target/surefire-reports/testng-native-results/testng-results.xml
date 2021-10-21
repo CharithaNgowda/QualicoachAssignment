@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="5" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-20T18:20:28Z" name="Surefire suite" finished-at="2021-10-20T18:23:29Z" duration-ms="180691">
+    <groups>
+    </groups>
+    <test started-at="2021-10-20T18:20:28Z" name="Surefire test" finished-at="2021-10-20T18:23:29Z" duration-ms="180691">
+      <class name="qualicoach.EditUserTest">
+        <test-method signature="baseNavigation()[pri:0, instance:qualicoach.EditUserTest@379614be]" started-at="2021-10-20T23:50:57Z" name="baseNavigation" finished-at="2021-10-20T23:51:33Z" duration-ms="36369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+      </class> <!-- qualicoach.EditUserTest -->
+      <class name="qualicoach.ManagementTest">
+        <test-method signature="baseNavigation()[pri:0, instance:qualicoach.ManagementTest@404bbcbd]" started-at="2021-10-20T23:52:26Z" name="baseNavigation" finished-at="2021-10-20T23:52:54Z" duration-ms="28415" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-3909LIN4', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f296b1fa073cedec25a218fbff4947a, clickElement {id=c1dc178e-99be-46d9-aca7-75583bee1873}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\CHARIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57920/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5f296b1fa073cedec25a218fbff4947a)] -> xpath: //a[text() = 'Courses']]
+Session ID: 5f296b1fa073cedec25a218fbff4947a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-3909LIN4', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f296b1fa073cedec25a218fbff4947a, clickElement {id=c1dc178e-99be-46d9-aca7-75583bee1873}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\CHARIT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57920/devtoo..., se:cdpVersion: 94.0.4606.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5f296b1fa073cedec25a218fbff4947a)] -> xpath: //a[text() = 'Courses']]
+Session ID: 5f296b1fa073cedec25a218fbff4947a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at qualicoach.ManagementTest.baseNavigation(ManagementTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+      </class> <!-- qualicoach.ManagementTest -->
+      <class name="qualicoach.RegisterTest">
+        <test-method signature="baseNavigation()[pri:0, instance:qualicoach.RegisterTest@704deff2]" started-at="2021-10-20T23:52:54Z" name="baseNavigation" finished-at="2021-10-20T23:53:28Z" duration-ms="33110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+      </class> <!-- qualicoach.RegisterTest -->
+      <class name="qualicoach.LoginuserTest">
+        <test-method signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qualicoach.LoginuserTest@1e81f160]" started-at="2021-10-20T23:52:03Z" name="baseNavigation" data-provider="getData" finished-at="2021-10-20T23:52:15Z" duration-ms="11990" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user88]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@9146]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Home page should be displayed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class qualicoach.LoginuserTest (in unnamed module @0x2a5b3fee) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x2a5b3fee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class qualicoach.LoginuserTest (in unnamed module @0x2a5b3fee) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x2a5b3fee
+	at qualicoach.LoginuserTest.baseNavigation(LoginuserTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qualicoach.LoginuserTest@1e81f160]" started-at="2021-10-20T23:52:15Z" name="baseNavigation" data-provider="getData" finished-at="2021-10-20T23:52:26Z" duration-ms="11125" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user88]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhho]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Home page should not be displayed]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalAccessError">
+            <message>
+              <![CDATA[class qualicoach.LoginuserTest (in unnamed module @0x2a5b3fee) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x2a5b3fee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalAccessError: class qualicoach.LoginuserTest (in unnamed module @0x2a5b3fee) cannot access class jdk.internal.org.jline.utils.Log (in module jdk.internal.le) because module jdk.internal.le does not export jdk.internal.org.jline.utils to unnamed module @0x2a5b3fee
+	at qualicoach.LoginuserTest.baseNavigation(LoginuserTest.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalAccessError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+      </class> <!-- qualicoach.LoginuserTest -->
+      <class name="qualicoach.LoginpageTest">
+        <test-method signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qualicoach.LoginpageTest@1787bc24]" started-at="2021-10-20T23:51:33Z" name="baseNavigation" data-provider="getData" finished-at="2021-10-20T23:51:48Z" duration-ms="15134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@6155]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Home page should be displayed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qualicoach.LoginpageTest@1787bc24]" started-at="2021-10-20T23:51:48Z" name="baseNavigation" data-provider="getData" finished-at="2021-10-20T23:52:03Z" duration-ms="14799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin57]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhho]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Home page should not be displayed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+      </class> <!-- qualicoach.LoginpageTest -->
+      <class name="qualicoach.DeleteUserTest">
+        <test-method signature="baseNavigation()[pri:0, instance:qualicoach.DeleteUserTest@1acaf3d]" started-at="2021-10-20T23:50:28Z" name="baseNavigation" finished-at="2021-10-20T23:50:57Z" duration-ms="28552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qualicoach.DeleteUserTest@1acaf3d]" started-at="2021-10-20T23:53:28Z" name="teardown" finished-at="2021-10-20T23:53:28Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qualicoach.EditUserTest@379614be]" started-at="2021-10-20T23:53:28Z" name="teardown" finished-at="2021-10-20T23:53:28Z" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qualicoach.LoginpageTest@1787bc24]" started-at="2021-10-20T23:53:28Z" name="teardown" finished-at="2021-10-20T23:53:28Z" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qualicoach.LoginuserTest@1e81f160]" started-at="2021-10-20T23:53:28Z" name="teardown" finished-at="2021-10-20T23:53:28Z" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qualicoach.ManagementTest@404bbcbd]" started-at="2021-10-20T23:53:28Z" name="teardown" finished-at="2021-10-20T23:53:29Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qualicoach.RegisterTest@704deff2]" started-at="2021-10-20T23:53:29Z" name="teardown" finished-at="2021-10-20T23:53:29Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qualicoach.DeleteUserTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="qualicoach.LoginpageTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qualicoach.LoginpageTest -->
+      <class name="qualicoach.RegisterTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qualicoach.RegisterTest -->
+      <class name="qualicoach.EditUserTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qualicoach.EditUserTest -->
+      <class name="qualicoach.ManagementTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="baseNavigation"/>
+        </methods>
+      </class> <!-- qualicoach.ManagementTest -->
+      <class name="qualicoach.LoginuserTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="baseNavigation" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- qualicoach.LoginuserTest -->
+      <class name="qualicoach.DeleteUserTest">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qualicoach.DeleteUserTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

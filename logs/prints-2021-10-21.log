@@ -1,8 +1,8 @@
-00:15:56.064 [main] INFO  resources.Base - driver is initialized
-00:16:08.022 [main] INFO  resources.Base - Navigate to Admin login page
-00:16:38.238 [main] INFO  resources.Base - driver is initialized
-00:16:49.931 [main] INFO  resources.Base - driver is initialized
-00:17:00.995 [main] INFO  resources.Base - driver is initialized
-00:17:39.309 [main] INFO  resources.Base - driver is initialized
-00:17:50.396 [main] INFO  resources.Base - Navigate to Admin  Login page
-00:18:18.935 [main] INFO  resources.Base - driver is initialized
+11:21:41.566 [main] INFO  resources.Base - driver is initialized
+11:23:23.569 [main] INFO  resources.Base - driver is initialized
+11:23:31.176 [main] INFO  resources.Base - Navigate to Admin login page
+11:23:54.234 [main] INFO  resources.Base - driver is initialized
+11:24:06.296 [main] INFO  resources.Base - driver is initialized
+11:24:15.397 [main] INFO  resources.Base - driver is initialized
+11:24:56.355 [main] INFO  resources.Base - driver is initialized
+11:25:06.328 [main] INFO  resources.Base - Navigate to Admin  Login page
