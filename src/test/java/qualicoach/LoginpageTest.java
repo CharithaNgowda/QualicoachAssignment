@@ -26,29 +26,29 @@ public class LoginpageTest extends Base {
 		log.info("driver is initialized");
 		driver.get("https://test.qualicoach.org/admin/search.php");
 		driver.getCurrentUrl();	
-    	Adminlogin alp = new Adminlogin(driver);
+    	        Adminlogin alp = new Adminlogin(driver);
 		alp.getemail().sendKeys("Username");
-	    alp.getpassword().sendKeys("Password");
+	        alp.getpassword().sendKeys("Password");
 		alp.getlogin().click();	
 		log.info(text);
 		}
 		
 		
 		@DataProvider
-	public Object[][] getData()
+	    public Object[][] getData()
 			  {
-				Object[][] data = new Object[2][3]  ;
-				data[0][0] = "admin55";
-				data[0][1] = "Admin@6155";
-				data[0][2] = "Home page should be displayed";
+			Object[][] data = new Object[2][3]  ;
+			data[0][0] = "admin55";
+			data[0][1] = "Admin@6155";
+			data[0][2] = "Home page should be displayed";
 				
 				
-				data[1][0] = "admin57";
-				data[1][1] = "hhho";
-				data[1][2] = " Home page should not be displayed";
+			data[1][0] = "admin68";
+			data[1][1] = "Admin@9146";
+			data[1][2] = " Home page should be displayed";
 				
 				
-				 return data;
+			 return data;
 				
 			  }
    @AfterTest
